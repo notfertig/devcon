@@ -14,6 +14,9 @@
 	},
 	"customizations": {
 		"vscode": {
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "zsh"
+			},
 			"extensions": [
 				"Catppuccin.catppuccin-vsc",
 				"ms-azuretools.vscode-docker",
@@ -24,7 +27,6 @@
 				"enkia.tokyo-night",
 				"oderwat.indent-rainbow"
 			]
-		}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -38,4 +40,5 @@
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	"remoteUser": "vscode"
+}
 }
